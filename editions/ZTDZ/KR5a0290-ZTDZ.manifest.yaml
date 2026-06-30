@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0290/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0290/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 清微丹訣
+  date: '2015-08-28 23:44:25.138131'
+  source:
+    repository: kanripo
+    path: KR5a0290
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0290_000-ZTDZ.yaml, hash: 'sha256:254666b0b3411ea06d6b1aac2184ca4d6c6fc51568a58264d513ae1399dee695'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0290_000-ZTDZ.markers.yaml, hash: 'sha256:c93f6bea54b8d4042656e267778e97fbb403cf295db9ebbc8778bba5a7c6526a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0290_SJB_000-040961c
+    span:
+    - body
+    - 0
+    - 2818
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ee36bb00806f6b0f475dd40fedb8494b22aab8daf226c93d4e73f8ffb38287a5
